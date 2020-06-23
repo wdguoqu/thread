@@ -7,7 +7,7 @@ package com.damon.utils;
  * @Version: #1.0 Copyright © 2020
  */
 public final class ThreadUtil {
-	private int size;
+	private int size = 0;
 	private int thread = 0;
 	private int endIndex = 0;
 	private int threadNum = 5;
